@@ -20,11 +20,7 @@ export default defineNuxtConfig({
 
   // Configurações do Supabase (opcional: redirecionamento automático)
   supabase: {
-    redirectOptions: {
-      login: '/login',
-      callback: '/confirm',
-      exclude: ['/'], // Páginas públicas
-    }
+    redirect: false, // Desabilita redirecionamento até configurar as credenciais
   },
 
   compatibilityDate: "2024-11-01",
