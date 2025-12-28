@@ -1,0 +1,20 @@
+{
+  "name": "Nuxt 4 Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20", // Node 20+ recomendado para Nuxt 4
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Vue.volar",               // Suporte essencial para Vue/Nuxt
+        "bradlc.vscode-tailwindcss", // Autocomplete para Tailwind
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
+}
