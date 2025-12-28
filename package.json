@@ -1,0 +1,22 @@
+{
+  "name": "nuxt4-tailwind-supabase-codespace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/supabase": "^1.4.0",
+    "nuxt": "^3.12.4",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}
