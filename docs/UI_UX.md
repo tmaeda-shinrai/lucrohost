@@ -899,7 +899,6 @@ Preparar variáveis CSS para suporte futuro:
 
 ## Próximos Passos
 
-1. Criar protótipo de alta fidelidade no Figma
 2. Implementar design system base (Tailwind + componentes)
 3. Desenvolver páginas de autenticação
 4. Implementar dashboard principal
