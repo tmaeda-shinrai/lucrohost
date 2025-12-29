@@ -1,0 +1,50 @@
+{
+  "cSpell.language": "pt,pt-BR,en",
+  "cSpell.enabled": true,
+  "cSpell.diagnosticLevel": "Information",
+  "cSpell.words": [
+    "lucrohost",
+    "supabase",
+    "nuxt",
+    "tailwindcss",
+    "composables",
+    "middlewares",
+    "LGPD",
+    "RLS",
+    "imovel",
+    "imoveis",
+    "receita",
+    "receitas",
+    "despesa",
+    "despesas",
+    "categoria",
+    "categorias",
+    "plataforma",
+    "plataformas",
+    "anfitriao",
+    "airbnb",
+    "booking",
+    "postg",
+    "postgres",
+    "vscode",
+    "WCAG"
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["class:\\s*?[\"'`]([^\"'`]*).*?[\"'`]", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+version: "2"
+language: "pt,pt-BR,en"
+words:
+  # Projeto
+  - lucrohost
+  - supabase
+  - nuxt
+  - tailwindcss
+  - composables
+  - middlewares
+  - devcontainer
+  
+  # Tecnologias
+  - postgres
+  - postgresql
+  - postgrest
+  - LGPD
+  - RLS
+  - JWT
+  - WCAG
+  - npm
+  - pnpm
+  - tsx
+  
+  # Domínio do Negócio
+  - imovel
+  - imoveis
+  - receita
+  - receitas
+  - despesa
+  - despesas
+  - categoria
+  - categorias
+  - plataforma
+  - plataformas
+  - anfitriao
+  - hospedagem
+  - hospedagens
+  - diaria
+  - diarias
+  -
+  
+  # Plataformas
+  - airbnb
+  - booking
+  
+  # Termos Técnicos
+  - signup
+  - signin
+  - logout
+  - composable
+  - middleware
+  - readonly
+  - timestamp
+  - uuid
+  - enum
+  - regex
+  
+  # Termos PT-BR do domínio
+  - recebimento
+  - pagamento
+  - vencimento
+  - parcelado
+  - fixa
+  - variavel
+  - mensal
+  - trimestral
+  - anual
+  
+# Ignorar padrões
+ignoreRegExpList:
+  - /\b[A-Z_]{2,}\b/g  # Constantes em CAPS
+  - /\b\d+\b/g         # Números
+  
+# Configurações por tipo de arquivo
+languageSettings:
+  - languageId: "markdown"
+    locale: "pt-BR"
+  - languageId: "typescript"
+    locale: "en,pt-BR"
+  - languageId: "vue"
+    locale: "en,pt-BR"
